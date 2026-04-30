@@ -1,5 +1,5 @@
 #TEST INVENTARIO
-from source.inventario import inventario
+from source.inventario import Inventario
 
 def test_agregar_producto():
     inventario = Inventario()
@@ -9,6 +9,8 @@ def test_agregar_producto():
 
 
     assert len(inventario.productos) == 1
+
+    
 
 
 
