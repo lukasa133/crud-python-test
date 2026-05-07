@@ -167,9 +167,3 @@ El enfoque TDD permitió trabajar de forma ordenada y asegurar que cada funciona
 
 ---
 
-# 6. Entregables
-
-* Código fuente del sistema.
-* Pruebas automatizadas.
-* Repositorio Git.
-* Bitácora reflexiva.

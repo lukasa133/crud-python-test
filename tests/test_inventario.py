@@ -47,5 +47,19 @@ def test_eliminar_producto():
 
     assert len(inventario.productos) == 0
 
+# CONFIRMAR SI SE ESTA LISTANDO LOS PRODUCTOS
+def test_listar_productos():
+    inventario = Inventario()
+
+    inventario.agregar_producto("Mouse", 10)
+    inventario.agregar_producto("Teclado", 5)
+
+    productos = inventario.listar_productos()
+
+    assert len(productos) == 2
+    assert productos[0]["nombre"] == "Mouse"
+    assert productos[1]["nombre"] == "Teclado"
+
+
 
 
